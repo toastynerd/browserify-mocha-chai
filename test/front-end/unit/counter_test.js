@@ -1,4 +1,5 @@
 var Counter = require('../../../lib/counter');
+var expect = require('chai').expect
 
 describe("Counter", function() {
     var counter;
