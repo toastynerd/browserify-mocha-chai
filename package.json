@@ -1,0 +1,13 @@
+{
+  "name" : "browserify-frontend-testing",
+  "description" : "testing front end code using browserify and mocha/chai",
+  "version" : "0.0.1",
+  "devDependencies" : {
+    "grunt" : "^0.4",
+    "browserify" : "^3.x",
+    "grunt-browserify" : "^1.3",
+    "grunt-simple-mocha" : "*",
+    "mocha" : "*",
+    "chai" : "*"
+  }
+}
