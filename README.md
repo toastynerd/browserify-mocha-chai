@@ -5,3 +5,7 @@ test-suite.js file from all of the .js files located in test/front-end/unit.
 After that open test.html in a browser and there should be two passing tests.
 To run tests on the command line run `grunt test`, this will build the same 
 test-suite with browserify and run grunt-simple-mocha on that file.
+
+There is also an autotest feature that will detect changes in the files
+specified in the watch:autoTest:files array and rerun both the browserify
+and test tasks automatically.
